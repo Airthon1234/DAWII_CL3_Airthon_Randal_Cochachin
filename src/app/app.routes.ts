@@ -15,6 +15,7 @@ export const routes: Routes = [
             { path: "pregunta3", component: Pregunta3Component }
         ]
     },
+    {path: "paginanoencontrada",component:PaginanoencontradaComponent},
     { path: "", redirectTo: "pagina/home", pathMatch: "full" },
     { path: "**", component: PaginanoencontradaComponent }
 ];

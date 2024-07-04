@@ -1,12 +1,21 @@
 .background {
-    height: calc(100vh - 64px);
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .content {
-    text-align: center;
-    color: white;
-  }
+  height: calc(100vh - 64px);
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  font-size: 1.8rem;
+}

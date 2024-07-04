@@ -22,4 +22,7 @@ export class PaginaComponent {
   irPregunta3(): void {
     this.router.navigate(["pregunta3"], { relativeTo: this.route });
   }
+  irPaginaNoEncontrada(): void {
+    this.router.navigate(["paginanoencontrada"], { relativeTo: this.route });
+  }
 }
