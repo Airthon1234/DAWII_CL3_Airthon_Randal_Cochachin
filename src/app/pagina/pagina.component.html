@@ -1,1 +1,14 @@
-<p>pagina works!</p>
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span (click)="irHome()">Menu</span>
+  &nbsp;&nbsp;
+  &nbsp;&nbsp;
+  <button mat-button (click)="irPregunta2()">Episodio</button>
+  &nbsp;&nbsp;
+  &nbsp;&nbsp;
+  <button mat-button (click)="irPregunta3()">Foto</button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
